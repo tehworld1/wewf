@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+  <head>
+      <meta content="width=device-width, initial-scale=1" name="viewport" />
+      <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+      <link rel="preconnect" href="https://fonts.gstatic.com">
+      <link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic&display=swap" rel="stylesheet">
+      <link rel="preconnect" href="https://fonts.gstatic.com">
+      <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans&family=Raleway:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+      <link rel="preconnect" href="https://fonts.gstatic.com">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+      integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+      crossorigin="anonymous" />
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/brands.min.css"
+      integrity="sha512-apX8rFN/KxJW8rniQbkvzrshQ3KvyEH+4szT3Sno5svdr6E/CP0QE862yEeLBMUnCqLko8QaugGkzvWS7uNfFQ=="
+      crossorigin="anonymous" />
+      <script src="https://cdn.tailwindcss.com/3.1.6?plugins=forms,typography,aspect-ratio,line-clamp"></script>
+      
+      <meta charSet="UTF-8" />
+  </head>
+  <body>
+    <div>
+  <div class="canvas-paper"></div>
+  <div class="canvas-paper">
+    <div class="bg-white pt-16 pr-4 pb-16 pl-4 md:px-24 lg:px-8 lg:py-20">
+      <div class="mr-auto ml-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl">
+        <div class="mr-auto ml-auto max-w-xl sm:mx-auto lg:max-w-2xl">
+          <div class="mt-0 mr-0 mb-16 ml-0 flex flex-col sm:text-center">
+            <div></div>
+            <div class="mt-0 mr-auto mb-6 ml-auto text-3xl font-bold leading-none tracking-tight text-gray-900 max-w-lg
+                font-sans sm:text-4xl md:mx-auto">
+              <div class="relative">
+                <span class="items-center justify-center w-32 text-blue-100 lg:w-32 lg:-ml-28 lg:-mt-10 sm:block flex
+                    absolute top-0 left-0 z-0 hidden -mt-8 -ml-20">
+                  <svg viewbox="0 0 52 24" fill="currentColor" class="w-full h-full"><defs><pattern
+                      id="9ef1ff62-feb2-41fe-8163-772b4c79de7b" x="0" y="0" width=".135" height=".30"><circle cx="1"
+                      cy="1" r=".7"/></pattern></defs><rect fill="url(#9ef1ff62-feb2-41fe-8163-772b4c79de7b)" width="52"
+                      height="24"/></svg>
+                </span>
+                <p class="font-bold text-gray-900 text-3xl inline tracking-tight relative font-sans sm:text-4xl
+                    sm:leading-none">Patrick Zhang</p>
+              </div>
+              <p class="inline font-bold text-3xl tracking-tight font-sans sm:text-4xl sm:leading-none">an aspiring
+                  computer science major</p>
+            </div>
+            <p class="text-gray-700 text-base md:text-lg">
+              Text: 484-272-7704
+              <div>Email: patz@duck.com</div>
+            </p>
+          </div>
+          <div class="space-y-4">
+            <div class="border-b">
+              <div class="flex items-center w-full pt-4 pr-4 pb-4 pl-4 focus:outline-none">
+                <p class="text-lg font-medium">Education</p>
+              </div>
+              <div class="pt-0 pr-4 pb-4 pl-4">
+                <p class="text-gray-700">
+                  Liberty High School - 1115 Linden Street Bethlehem, PA 18018&nbsp;
+                  <div>
+                    Sophomore - Class of 2026
+                    <div>
+                      <div>GPA - 4.68 Weighted / A Student</div>
+                    </div>
+                    <div>Class Rank - 21/698</div>
+                    <div>Perfect Attendance</div>
+                  </div>
+                </p>
+              </div>
+            </div>
+            <div class="border-b">
+              <div class="flex items-center w-full pt-4 pr-4 pb-4 pl-4 focus:outline-none">
+                <p class="text-lg font-medium">Skills</p>
+              </div>
+              <div class="pt-0 pr-4 pb-4 pl-4">
+                <p class="text-gray-700">
+                  Hard working
+                  <div>On-time and ready to work</div>
+                  <div>Quick learner</div>
+                  <div>Experience with various computer software and operating systems (eg: MacOS, Windows)</div>
+                  <div>Highly proficient in Google Software and other equivalents (Docs, Sheets, Slides, etc)</div>
+                </p>
+              </div>
+            </div>
+            <div class="border-b">
+              <div class="flex items-center w-full pt-4 pr-4 pb-4 pl-4 focus:outline-none">
+                <p class="text-lg font-medium">Extracurriculars</p>
+              </div>
+              <div class="pt-0 pr-4 pb-4 pl-4">
+                <p class="text-gray-700">
+                  JV Tennis: 2022 -&gt; Now
+                  <div>Environmental Club: 2022 -&gt; Now</div>
+                  <div>LHS Sustainability Project Coordinator: 2022 -&gt; Now</div>
+                  <div>Math Team: 2023 -&gt; Now</div>
+                  <div>PJAS: 2023 -&gt; Now</div>
+                  <div>Community Service: 30+ Hours</div>
+                </p>
+              </div>
+            </div>
+            <div class="border-b">
+              <div class="flex items-center w-full pt-4 pr-4 pb-4 pl-4 focus:outline-none">
+                <p class="text-lg font-medium">Languages Known</p>
+              </div>
+              <div class="pt-0 pr-4 pb-4 pl-4">
+                <p class="text-gray-700">
+                  English - Native Speaker
+                  <div>Cantonese - Conversation Level</div>
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="bg-white w-full pt-16 pr-4 pb-16 pl-4 md:px-24 lg:px-8">
+      <div class="mr-auto ml-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8">
+        <div class="flex flex-col justify-between pt-5 pr-0 pb-10 pl-0 border-t border-gray-800 sm:flex-row">
+          <p class="text-sm text-gray-500">© Copyright 2024 Patrick Zhang. All rights reserved.</p>
+          <div class="flex items-center mt-4 space-x-4 sm:mt-0"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+  </body>
+</html>
+          
