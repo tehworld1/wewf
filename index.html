@@ -14,7 +14,7 @@
       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/brands.min.css"
       integrity="sha512-apX8rFN/KxJW8rniQbkvzrshQ3KvyEH+4szT3Sno5svdr6E/CP0QE862yEeLBMUnCqLko8QaugGkzvWS7uNfFQ=="
       crossorigin="anonymous" />
-      <script src="https://cdn.tailwindcss.com/3.1.6?plugins=forms,typography,aspect-ratio,line-clamp"></script>
+      <script src="https://cdn.tailwindcss.com/3.4.1?plugins=forms,typography,aspect-ratio,line-clamp"></script>
       
       <meta charSet="UTF-8" />
   </head>
@@ -31,16 +31,51 @@
     color: blue; /* Change the color to blue on hover */
   }
 </style>
-    <div>
-  <div class="canvas-paper"></div>
   <div class="canvas-paper">
     <div class="bg-white pt-16 pr-4 pb-16 pl-4 md:px-24 lg:px-8 lg:py-20">
+      <div class="bg-white pt-4 pr-8 pb-4 pl-8">
+        <nav class="w-full">
+          <div class="flex w-full justify-between max-w-screen-2xl md:flex-row mt-auto mr-auto mb-auto ml-auto">
+            <div class="flex flex-row bg-white justify-between items-center mt-2 mb-2 md:m-0 hidden md:flex">
+              <a href="./index.html" fontfamily="Raleway" class="text-gray-600 text-center mr-6 font-medium
+                  text-base">Home</a>
+              <a href="/games" fontfamily="Raleway" class="text-gray-600 text-center mr-6 font-medium
+                  text-base">Games</a>
+              <a href="#" fontfamily="Raleway" class="text-gray-600 text-center font-medium text-base">Pricing</a>
+            </div>
+            <div class="flex flex-row justify-center items-center order-first md:order-none"></div>
+            <div class="flex flex-row bg-white justify-center items-center md:m-0 hidden md:flex"></div>
+            <div class="md:hidden flex ml-auto items-center">
+              <div class="outline-none mobile-menu-button">
+                <svg id="Windframe_8266OzF4kj8" fill="none" strokelinecap="round" strokewidth="2" viewbox="0 0 24 24"
+                    stroke="currentColor" class="w-6 h-6 text-gray-500 hover:text-green-500"><path
+                    id="Windframe_wkbuNH6W49d" d="M4 6h16M4 12h16M4 18h16"/></svg>
+              </div>
+            </div>
+          </div>
+          <div class="hidden md:hidden mobile-menu">
+            <div>
+              <div class="flex flex-col">
+                <a href="index.html" fontfamily="Raleway" class="text-gray-600 text-center mt-2 font-medium
+                    text-base">Home</a>
+                <a href="#" fontfamily="Raleway" class="text-gray-600 text-center mt-2 font-medium
+                    text-base">Placeholder2</a>
+                <a href="#" fontfamily="Raleway" class="text-gray-600 text-center mt-2 font-medium
+                    text-base">Placeholder3</a>
+                <a href="#" fontfamily="Raleway" class="text-gray-600 text-center mt-2 font-medium text-base">Placeholder3</a>
+                <a href="#" fontfamily="Raleway" class="text-gray-600 text-center mt-2 font-medium text-lg">Placeholder4</a>
+                <a href="#" fontfamily="Raleway" class="text-gray-600 text-center mt-2 font-medium text-lg">Placeholder5</a>
+              </div>
+            </div>
+          </div>
+        </nav>
+      </div>
       <div class="mr-auto ml-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl">
-        <div class="mr-auto ml-auto max-w-xl sm:mx-auto lg:max-w-2xl">
-          <div class="mt-0 mr-0 mb-16 ml-0 flex flex-col sm:text-center">
+        <div class="mr-auto ml-auto sm:mx-auto lg:max-w-2xl max-w-xl">
+          <div class="mt-0 mr-0 mb-16 ml-0 sm:text-center flex flex-col">
             <div></div>
-            <div class="mt-0 mr-auto mb-6 ml-auto text-3xl font-bold leading-none tracking-tight text-gray-900 max-w-lg
-                font-sans sm:text-4xl md:mx-auto">
+            <div class="mt-0 mr-auto mb-6 ml-auto text-3xl font-bold leading-none tracking-tight text-gray-900
+                sm:text-4xl md:mx-auto max-w-lg font-sans">
               <div class="relative">
                 <span class="items-center justify-center w-32 text-blue-100 lg:w-32 lg:-ml-28 lg:-mt-10 sm:block flex
                     absolute top-0 left-0 z-0 hidden -mt-8 -ml-20">
@@ -49,98 +84,112 @@
                       cy="1" r=".7"/></pattern></defs><rect fill="url(#9ef1ff62-feb2-41fe-8163-772b4c79de7b)" width="52"
                       height="24"/></svg>
                 </span>
-                <p class="font-bold text-gray-900 text-3xl inline tracking-tight relative font-sans sm:text-4xl
-                    sm:leading-none">Patrick Zhang</p>
+                <p class="font-bold text-gray-900 text-3xl tracking-tight sm:text-4xl sm:leading-none inline relative
+                    font-sans">Patrick Zhang</p>
               </div>
               <p class="tracking-tight sm:text-4xl sm:leading-none inline font-sans">an aspiring computer science
                   major</p>
             </div>
             <p class="text-gray-700 text-base md:text-lg">
-              Email: <a href="mailto:patzh1@yahoo.com" style="text-decoration: underline;">patzh1@yahoo.com</a>
+              Email:
+              <a href="mailto:patzh1@yahoo.com" style="text-decoration: underline;">patzh1@yahoo.com</a>
             </p>
-        </div>
+          </div>
           <div class="space-y-4">
             <div class="border-b">
-              <div class="flex items-center w-full pt-4 pr-4 pb-4 pl-4 focus:outline-none">
+              <div class="items-center w-full pt-4 pr-4 pb-4 pl-4 flex focus:outline-none">
                 <p class="text-lg font-medium">Education</p>
               </div>
               <div class="pt-0 pr-4 pb-4 pl-4">
-                <p class="text-gray-700">
-                  <div>Liberty High School - Bethlehem, PA 18018&nbsp;</div>
+                <p class="text-gray-700"></p>
+                <div>Liberty High School - Bethlehem, PA 18018&nbsp;</div>
+                <div>
+                  Sophomore - Class of 2026
                   <div>
-                    Sophomore - Class of 2026
-                    <div>
-                      <div>GPA - 4.68 Weighted </div>
-                    </div>
-                    <div>Class Rank - 21/698</div>
-                    <div>Perfect Attendance</div>
-                    <a href="https://c5b66404-df7f-4f32-a34c-55fa34409a47.usrfiles.com/ugd/c5b664_6ee2edac5ec84361bbef38f2b4042b6c.pdf" style="text-decoration: underline;" target="_blank">Courses Taken/Planned</a>
+                    <div>GPA - 4.68 Weighted</div>
                   </div>
-                </p>
+                  <div>Class Rank - 21/698</div>
+                  <div>Perfect Attendance</div>
+                  <a
+                      href="https://c5b66404-df7f-4f32-a34c-55fa34409a47.usrfiles.com/ugd/c5b664_6ee2edac5ec84361bbef38f2b4042b6c.pdf" style="text-decoration: underline;" target="_blank">Courses Taken/Planned</a>
+                </div>
+                <p></p>
               </div>
             </div>
             <div class="border-b">
-              <div class="flex items-center w-full pt-4 pr-4 pb-4 pl-4 focus:outline-none">
+              <div class="items-center w-full pt-4 pr-4 pb-4 pl-4 flex focus:outline-none">
                 <p class="text-lg font-medium">Skills</p>
               </div>
               <div class="pt-0 pr-4 pb-4 pl-4">
-                <p class="text-gray-700">
-                  <div>Willing to work under pressure</div>
-                  <div>Quick learner</div>
-                  <div>Experience with various computer software and operating systems (eg: MacOS, Windows)</div>
-                  <div>Highly proficient in Google Software and other equivalents (Docs, Sheets, Slides, etc)</div>
-                  <div>Basic understanding of Python, HTML, and CSS</div>
-                  <div>Bilingual: English - Native and Cantonese - Conversational
-                </p>
+                <p class="text-gray-700"></p>
+                <div>Willing to work under pressure</div>
+                <div>Quick learner</div>
+                <div>Experience with various computer software and operating systems (eg: MacOS, Windows)</div>
+                <div>Highly proficient in Google Software and other equivalents (Docs, Sheets, Slides, etc)</div>
+                <div>Basic understanding of Python, HTML, and CSS</div>
+                <div>
+                  Bilingual: English - Native and Cantonese - Conversational
+                  <p></p>
+                </div>
               </div>
-            </div>
-            <div class="border-b">
-              <div class="flex items-center w-full pt-4 pr-4 pb-4 pl-4 focus:outline-none">
-                <p class="text-lg font-medium">Extracurriculars</p>
-              </div>
-              <div class="pt-0 pr-4 pb-4 pl-4">
-                <p class="text-gray-700">
+              <div class="border-b">
+                <div class="items-center w-full pt-4 pr-4 pb-4 pl-4 flex focus:outline-none">
+                  <p class="text-lg font-medium">Extracurriculars</p>
+                </div>
+                <div class="pt-0 pr-4 pb-4 pl-4">
+                  <p class="text-gray-700"></p>
                   <div>JV Tennis: Freshman -&gt; Now</div>
                   <div>Environmental Club: Freshman -&gt; Now</div>
                   <div>LHS Sustainability Project Coordinator: Freshman -&gt; Now</div>
                   <div>Math Team: Sophomore -&gt; Now</div>
                   <div>PJAS: Sophomore -&gt; Now</div>
                   <div>Community Service: 30+ Hours</div>
-                </p>
+                  <p></p>
+                </div>
               </div>
-            </div>
-            <div class="border-b">
-              <div class="flex items-center w-full pt-4 pr-4 pb-4 pl-4 focus:outline-none">
-                <p class="text-lg font-medium">What I do for fun</p>
-              </div>
-              <div class="pt-0 pr-4 pb-4 pl-4">
-                <p class="text-gray-700">
-                  <div><a href="games.html">Play Video Games (I ♡ games!)</a></div>
+              <div class="border-b">
+                <div class="items-center w-full pt-4 pr-4 pb-4 pl-4 flex focus:outline-none">
+                  <p class="text-lg font-medium">What I do for fun</p>
+                </div>
+                <div class="pt-0 pr-4 pb-4 pl-4">
+                  <p class="text-gray-700"></p>
+                  <div>
+                    <a href="/games.html">Play Video Games (I ♡ games!)</a>
+                  </div>
                   <div>Learning and Investing in Stock Market</div>
                   <div>IT Support: Solving problems for friends and family</div>
                   <div>Keeping up to date with tech (reading news and watching videos)</div>
                   <div>Analyzing UI designs for companies (paid)</div>
                   <div>Providing feedback for various research studies (paid)</div>
                   <div>Having fun with mini projects (like this one!)</div>
-                </p>
+                  <p></p>
+                </div>
               </div>
             </div>
           </div>
         </div>
       </div>
-    </div>
-    <div class="bg-white w-full pt-16 pr-4 pb-16 pl-4 md:px-24 lg:px-8">
-      <div class="mr-auto ml-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8">
-        <div class="flex flex-col justify-between pt-5 pr-0 pb-10 pl-0 border-t border-gray-800 sm:flex-row">
-          <p class="text-sm text-gray-500">2024 Patrick Zhang.<a href="https://www.websitecarbon.com/website/zhangpy-pp-ua/" target="_blank">
-    Each visit emits 0.04g of CO2, cleaner than 96% of websites globally.
-  </a></p>
+      <div class="bg-white w-full pt-16 pr-4 pb-16 pl-4 md:px-24 lg:px-8">
+        <div class="mr-auto ml-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8">
+          <div class="justify-between pt-5 pr-0 pb-10 pl-0 sm:flex-row flex flex-col border-t border-gray-800">
+            <p class="text-sm text-gray-500">
+              2024 Patrick Zhang.
+              <a href="https://www.websitecarbon.com/website/zhangpy-pp-ua/" target="_blank">Each visit emits 0.04g of
+                  CO2, cleaner than 96% of websites globally.</a>
+            </p>
+          </div>
         </div>
       </div>
     </div>
   </div>
 </div>
-    
+    <script>
+        const btn = document.querySelector(".mobile-menu-button");
+        const menu = document.querySelector(".mobile-menu");
+        btn.addEventListener("click", () => {
+        menu.classList.toggle("hidden");
+        });
+    </script>
     
   </body>
 </html>
