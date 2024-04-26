@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <title>Patrick's Home</title>
+</head>
+<body>
+ <h1>Patrick's Home</h1>
+ <h3>All Sites/Apps Are Ranked</h3>
+ <ul>
+  <li>
+   <h2>Money Making - Currently Used</h2>
+   <ul>
+    <li><a href="https://connect.cloudresearch.com/">Connect CloudResearch</a></li>
+    <li><a href="https://paidviewpoint.com/">PaidViewPoint</a></li>
+    <li><a href="https://intellizoom.com">Intellizoom</a></li>
+    <li><a href="https://www.onepulse.com/">OnePulse</a></li>
+    <li><a href="https://surveys.google.com/google-opinion-rewards/">Google Rewards</a></li>
+    <li><a href="https://25clicks.com/">25Clicks</a></li>
+    <li><a href="https://www.streetbees.com/">StreetBees</a></li>
+   </ul>
+  </li>
+  <li>
+   <h2>Money Making - Reccommended But Not Used</h2>
+   <ul>
+    <li><a href="https://www.usertesting.com/">Usertesting</a></li>
+    <li><a href="https://www.inboxdollars.com/">InboxDollars</a></li>
+    <li><a href="https://www.inboxdollars.com/">Branded Surveys</a></li>
+    <li><a href="https://www.frisbeerewards.com/">Frisbee *Receipts*</a></li>
+    <li><a href="https://apps.apple.com/us/app/five-surveys/id6478923910">Five Surveys *Testing Period*</a></li>
+    <li><a href="https://www.qmee.com/">Qmee *Meh*</a></li>
+   </ul>
+  </li>
+ </ul>
+</body>
+</html>
